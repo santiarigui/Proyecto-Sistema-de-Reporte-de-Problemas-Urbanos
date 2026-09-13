@@ -1,75 +1,4 @@
 # Proyecto-Sistema-de-Reporte-de-Problemas-Urbanos<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c75150c9-2b58-478c-952f-38c0d9123837" />
-# 🏙️ Sistema de Reporte y Seguimiento de Problemas Urbanos
-
-> **Práctica: Relaciones entre clases — Asociación de composición**
-
----
-
-## 📌 Descripción
-
-Este proyecto consiste en un sistema desarrollado en **Java** que permite registrar y realizar seguimiento a diferentes problemas que se presentan en espacios públicos de una ciudad.
-
-El sistema permite crear un reporte urbano, agregar evidencias, registrar seguimientos y actualizar el estado del problema.
-
-Algunos ejemplos de problemas que pueden ser reportados son:
-
-- 🕳️ Huecos en las calles
-- 💡 Luminarias dañadas
-- 🚦 Señales de tránsito deterioradas
-- 🚧 Alcantarillas en mal estado
-- 🗑️ Basura acumulada
-- 🏗️ Daños en espacios públicos
-
----
-
-## 🎯 Problema
-
-En una ciudad pueden presentarse diferentes problemas en las calles y espacios públicos. Sin embargo, cuando estos problemas no se registran y organizan correctamente, puede ser difícil realizar un seguimiento de su estado y de las acciones realizadas para solucionarlos.
-
-Por esta razón, se plantea desarrollar un sistema que permita **organizar la información de cada problema urbano mediante un reporte**.
-
----
-
-## 💡 Solución propuesta
-
-El sistema permite registrar la información de un problema urbano y realizar un seguimiento durante su proceso de atención.
-
-### Funciones principales
-
-1. Crear un reporte urbano.
-2. Registrar el tipo de problema.
-3. Registrar la ubicación.
-4. Agregar una descripción.
-5. Agregar evidencias.
-6. Agregar seguimientos.
-7. Cambiar el estado del reporte.
-8. Mostrar toda la información registrada.
-
----
-
-# 🔗 Relación entre clases
-
-El proyecto utiliza una relación de **composición** entre las clases.
-
-La clase `ReporteUrbano` representa el **todo**, mientras que las clases `Evidencia` y `Seguimiento` representan **partes** que pertenecen al reporte.
-
-### Representación
-
-```text
-                    ◆────────────── Evidencia
-                    │
-              ReporteUrbano
-                    │
-                    ◆────────────── Seguimiento
-
-
-
-
-
-
-
-
-Sí. Para que quede **todo en un solo bloque**, bonito y directamente pegable en `README.md`, usa este contenido completo:
 
 ````markdown
 # 🏙️ Sistema de Reporte y Seguimiento de Problemas Urbanos
@@ -588,8 +517,7 @@ La implementación permite relacionar un problema urbano con sus evidencias y se
 # 👨‍💻 Autores
 
 * **Santiago Arriguí Cuellar**
-* **Nombre del integrante**
-* **Nombre del integrante**
+
 
 ---
 
@@ -624,12 +552,3 @@ SistemaProblemasUrbanos
     ├── Evidencia.java
     └── Seguimiento.java
 ````
-
-Y algo importante: **no metas todo el README en otro archivo `.txt` o `.java`**. En GitHub crea un archivo llamado exactamente:
-
-```text
-README.md
-```
-
-y pega **todo el bloque anterior** dentro. GitHub lo va a renderizar automáticamente con títulos, tablas, bloques de código, etc.
-
